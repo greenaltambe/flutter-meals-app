@@ -19,6 +19,7 @@ class CategoryGridItem extends StatelessWidget {
         if (states.contains(WidgetState.pressed)) {
           return Theme.of(context).colorScheme.primary.withAlpha(31);
         }
+        return null;
       }),
       borderRadius: BorderRadius.circular(16),
       child: Container(
